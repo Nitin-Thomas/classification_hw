@@ -11,6 +11,77 @@ In this assignment you will build and evaluate several machine learning models t
 1. [Resampling](#Resampling)
 2. [Ensemble Learning](#Ensemble-Learning)
 
+# Final Outcomes
+
+## Resampling
+
+1. Which model had the best balanced accuracy score?
+
+        Answer: SMOTE Oversampling - 0.9936781215845847 marginally better than Combination (Over and Under) Sampling - 0.9935715401830394
+
+        Naive Random Oversampling - 0.9520479254722232
+        SMOTE Oversampling - 0.9936781215845847
+        Undersampling - 0.9865149130022852
+        Combination (Over and Under) Sampling - 0.9935715401830394   
+</br>
+
+2. Which model had the best recall score?
+
+        Answer: All models returned the same recall score, possibly due to the similar operations to the dataset
+
+        Naive Random Oversampling - 0.99
+        SMOTE Oversampling - 0.99
+        Undersampling - 0.99
+        Combination (Over and Under) Sampling - 0.99
+</br>
+
+3. Which model had the best geometric mean score?
+
+        Answer: SMOTE Oversampling, Randon Oversampling and Undersampling return the same geometric mean score, over the combination sampling.
+
+        Naive Random Oversampling - 0.95
+        SMOTE Oversampling - 0.99
+        Undersampling - 0.99
+        Combination (Over and Under) Sampling - 0.99
+- - -
+## Ensemble Learning
+
+### Final Questions
+
+1. Which model had the best balanced accuracy score?
+
+        Answer: The Easy Ensemble has a better accuracy score.
+
+        Easy Ensemble Classifier - 0.9063634584927155
+        Balanced Random Forest
+        Classifier - 0.755188410562291
+</br>
+
+2. Which model had the best recall score?
+
+    Answer: The Easy Ensemble has a better recall score
+
+    Easy Ensemble Classifier - 0.90
+    Balanced Random Forest 
+    Classifier - 0.89
+
+</br>
+
+3. Which model had the best geometric mean score?
+
+        Answer: The Easy Ensemble has a better geometric mean score
+
+        Easy Ensemble Classifier - 0.91
+        Balanced Random Forest Classifier - 0.74
+</br>
+
+4. What are the top three features?
+
+        Answer: The top 3 features in decending order
+
+        (0.06685785435013118, 'total_rec_prncp'),
+        (0.06284919480525715, 'total_pymnt'),
+        (0.059341984266355396, 'last_pymnt_amnt')
 - - -
 
 ## Files
