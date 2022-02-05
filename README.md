@@ -14,6 +14,7 @@ In this assignment you will build and evaluate several machine learning models t
 # Final Outcomes
 
 ## Resampling
+</br>
 
 1. Which model had the best balanced accuracy score?
 
@@ -46,7 +47,7 @@ In this assignment you will build and evaluate several machine learning models t
 - - -
 ## Ensemble Learning
 
-### Final Questions
+</br>
 
 1. Which model had the best balanced accuracy score?
 
@@ -59,11 +60,11 @@ In this assignment you will build and evaluate several machine learning models t
 
 2. Which model had the best recall score?
 
-    Answer: The Easy Ensemble has a better recall score
-
-    Easy Ensemble Classifier - 0.90
-    Balanced Random Forest 
-    Classifier - 0.89
+        Answer: The Easy Ensemble has a better recall score
+        
+        Easy Ensemble Classifier - 0.90
+        Balanced Random Forest 
+        Classifier - 0.89
 
 </br>
 
